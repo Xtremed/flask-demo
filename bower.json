@@ -1,0 +1,21 @@
+{
+  "name": "flask-demo",
+  "homepage": "https://github.com/xtremed/flask-demo",
+  "authors": [
+    "Eduardo Murillo edmurillo17@gmail.com"
+  ],
+  "description": "",
+  "main": "",
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.1.1"
+  }
+}

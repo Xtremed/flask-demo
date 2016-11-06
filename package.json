@@ -1,0 +1,28 @@
+{
+  "name": "flask-react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtremed/flask-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtremed/flask-demo/issues"
+  },
+  "homepage": "https://github.com/xtremed/flask-demo#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-browser": "^2.1.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0"
+  },
+  "dependencies": {}
+}

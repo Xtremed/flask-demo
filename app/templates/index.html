@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="jumbo">
+    <h2>Welcome to the Flask app<h2>
+    <h3>In this section we call a list of dummy users, the endpoint allows to filter per User id.<h3>
+    <div>The API used in this example is provided by <a href="https://jsonplaceholder.typicode.com/"> https://jsonplaceholder.typicode.com/</a></div>
+  </div>
+
+  <h1>Users API Check</h1>
+  <div>
+    <h4>User ID</h4>
+    <input id="txtUser" placeholder="User ID">
+    <span><a href=# id=requestPost>Get User Data</a></span>
+  </div>
+
+  <div>
+    <h4>Results</h4>
+  <pre id=result></pre>
+  </div>
+{% endblock %}

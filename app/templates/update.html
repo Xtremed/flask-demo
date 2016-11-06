@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="jumbo">
+    <h2>Welcome to the Flask app<h2>
+    <h3>In this section we send a patch request to the backend API<h3>
+    <div>The API used in this example is provided by <a href="https://jsonplaceholder.typicode.com/"> https://jsonplaceholder.typicode.com/</a></div>
+  </div>
+
+  <h1>Users API Check</h1>
+  <div>
+    <h4>Update User</h4>
+    <form>
+      <input id="txtUser" placeholder="User ID">
+      <input id="txtName" placeholder="Name">
+      <input id="txtEmail" placeholder="Email">
+      <input id="txtUserName" placeholder="Username">
+      <span><a href=# id=updatePost>Update User Data</a></span>
+    </form>
+    <span id="error"></span>
+  </div>
+
+  <div>
+    <h4>Results</h4>
+  <pre id=result></pre>
+  </div>
+{% endblock %}
